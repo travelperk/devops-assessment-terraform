@@ -24,7 +24,7 @@ These are the services you have access to:
    deploy more.
  * Keep in mind that Fargate needs to reach outside the VPC to download the
    containers from ECR. A `CannotPullContainerError` is not only a permission
-   error. There are three ways to achieve this, all seem fine to us.
+   error. There are two ways to achieve this, all seem fine to us.
  * There is a role called `ecsTaskExecutionRole` available to be used as
    execution role of the tasks.
  * Maybe is a good idea to try to deploy manually in AWS and then use
